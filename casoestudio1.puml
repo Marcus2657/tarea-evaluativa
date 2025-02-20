@@ -1,0 +1,15 @@
+@startuml definir persona por ano de nacimiento nombre y apellidos y edad actual segun ano actual
+class Persona{
+    -m_nombre: string
+    -m_apellidos: string
+    -m_yearNacimiento: int
+    +Persona()
+    +Persona(nombre: string,_apellidos:string,_yearNacimiento: int)
+    +getEdad(currentYear: int): int
+    +getEdad
+
+
+
+
+
+}
